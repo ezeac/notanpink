@@ -1,0 +1,659 @@
+/*
+Theme Name: No Tan Pink
+Author: DiezWeb - www.diezweb.com.ar
+*/
+/* 
+-----------------------------------------------------------------------------------------
+------------------------------------- CSS Inicial ---------------------------------------
+-----------------------------------------------------------------------------------------
+*/
+html{position:relative;}
+body{
+margin:0px;
+}
+a{
+text-decoration:none;
+}
+.header{}
+.footer{
+}
+.central{
+height:100%;
+}
+
+/* 
+-----------------------------------------------------------------------------------------
+----------------------------------- CSS Para Adaptable ----------------------------------
+-----------------------------------------------------------------------------------------
+/
+
+@media only screen and (min-width: 1199px){
+
+}
+@media only screen and (max-width: 993px) {
+    
+}
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+
+}
+
+*/
+
+/* 
+-----------------------------------------------------------------------------------------
+------------------------------------- CSS Menú Genérico ---------------------------------
+-----------------------------------------------------------------------------------------
+*/
+.menu{
+	margin-left:50%;
+	float:left;
+	display:none;
+}
+
+* {
+    font-family: raleway;
+    color: #1A1A1A;
+}
+.menu a{
+	color: white;
+}
+.menu ul{
+	position:absolute;
+	list-style:none;
+	padding:0px; 	
+}
+.menu li {
+	float:left;
+	height:25px;
+	padding:10px;
+}
+/* Para Submenú Con Animación Hacia Abajo: agregar asterisco aquí->/
+.menu li li{
+	height:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	overflow:hidden;
+	transition: height 1s, padding-top 1s, padding-bottom 1s;
+}
+.menu li li li{
+	height:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	overflow:hidden;
+	transition: height 1s, padding-top 1s, padding-bottom 1s;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.menu li:hover li{
+	height: 25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.menu li:hover li{
+	height:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/* Fin Animación Hacia Abajo */
+
+/* Para Submenú Con Animación Hacia Derecha: agregar asterisco aquí->/
+.menu li ul{
+	width:0px;
+	padding-right:0px;
+	padding-left:0px;
+	overflow:hidden;
+	transition: width 1s, padding-left 1s, padding-right 1s;
+}
+.menu li:hover ul{
+	float:left;
+	width:80px;
+	padding-left:10px;
+	padding-right:10px;
+}
+/* Fin Animación Hacia Derecha */
+
+/* 
+-----------------------------------------------------------------------------------------
+------------------------------------- CSS Otro ------------------------------------------
+-----------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.item-nav {
+    float: left;
+    padding: 5px 20px;
+}
+
+.item-nav.social-icon {
+    padding-right: 5px;
+}
+
+.item-nav a {
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.item-nav i.fa {
+    font-size: 22px;
+}
+
+.menu-principal {
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    height: 100%;
+    width: auto;
+    padding: 10px;
+    max-width: 170px;
+}
+
+.img-logo svg {
+    height: 100%;
+    float: left;
+    width: auto;
+}
+
+.img-logo svg * {
+    fill: black;
+}
+
+.menuInterior {
+    padding: 5px 0;
+    align-items: center;
+    height: 130px;
+    transition: all .3s ease-out;
+}
+
+
+.central.container {
+    margin-t|:;
+    margin-top: 130px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background: white;
+}
+
+.landing {
+    background: url(/wp-content/themes/notanpink/imagenes/Home-Portada.jpg) no-repeat center center / cover;
+    height: calc(100vh - 110px);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing .text {
+    font-size: 70px;
+    color: white;
+}
+
+.arrow-down {
+    color: white;
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+.arrow-down:hover {
+    opacity: .6;
+}
+
+.landing .arrow-down i {
+    font-size: 40px;
+}
+
+section.serv {
+    float: left;
+    background: #1A1A1A;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    padding: 125px 0 177px;
+    clear: both;
+}
+
+section.serv .item > .tit {text-align: center;color: white;font-size: 21px;padding-bottom: 30px;}
+
+section.serv .item > .tit.alter {
+    color: #FFE600;
+}
+
+section.serv .item > .img {
+    height: 450px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+section.serv .item.item1 > .img .background {
+    background: url(/wp-content/themes/notanpink/imagenes/Home-Asesoramientodeimagen.jpg) no-repeat center center / cover;
+}
+
+section.serv .item > .img .background {
+    transition: all .5s ease-out;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+section.serv .item > .img {
+    background: white;
+    position: relative;
+}
+
+section.serv .item.item2 > .img .background {
+    background: url(/wp-content/themes/notanpink/imagenes/Home-Decoraciondeinteriores.png) no-repeat center center / cover;
+}
+
+.button {
+    padding: 18px 34px;
+    background: #1A1A1A;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    border: 0;
+}
+
+.serv .item .info .text {
+    padding-bottom: 40px;
+}
+
+.serv .item .info {
+    opacity: 0;
+    transition: all .4s ease-out;
+}
+
+.serv .item:hover .info {
+    opacity: 1;
+    z-index: 2;
+}
+
+.serv .item:hover .background {
+    opacity: .1;
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-down i {
+    font-size: 40px;
+    color: white;
+}
+
+section.trabajos {
+    float: left;
+    width: 100%;
+    clear: both;
+    position: relative;
+    padding: 90px 0;
+}
+
+.trabajos .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.trabajos .owl-nav i {
+    font-size: 40px;
+}
+
+.trabajos .owl-nav .owl-next {
+    float: right;
+}
+
+.trabajos .contendorItemsLotes {
+    padding: 0 150px;
+}
+
+.trabajos .tit {
+    font-size: 40px;
+    padding: 50px 0 30px;
+}
+
+.trabajos .text {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.trabajos .tit1 {
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 40px;
+}
+
+
+section {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.cta i {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    line-height: 0;
+    transform: translateY(4px);
+    font-weight: bold;
+}
+
+.cta .tit {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 55px;
+}
+
+section.cta {
+    position: relative;
+    width: 100vw;
+    margin-left: 50%;
+    margin-right: 50%;
+    left: -50vw;
+    right: -50vw;
+    height: 400px;
+    background: url(/wp-content/themes/notanpink/imagenes/Home-Parallax.jpg) no-repeat center center / cover fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto .tit1 {
+    font-size: 40px;
+    padding-bottom: 52px;
+}
+
+.contacto .col.info .text {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 60px;
+    padding-right: 15%;
+}
+
+.contacto .col.info .social .social-icon {
+    float: left;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.contacto .col.info .social {
+}
+
+.contacto .col.form form > *:not(.button) {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 2px;
+    margin-bottom: 25px;
+    background: #E6E6E6;
+    border: 0;
+}
+
+.contacto .col.form form > textarea[name="mensaje"] {
+    padding-top: 15px;
+    height: 150px;
+}
+
+.contacto .col.form form > .button {
+    display: inline-block;
+}
+
+.contacto .col.form form {
+    text-align: center;
+}
+
+section.contacto {
+    padding: 130px 0 260px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    clear: both;
+    background: #1A1A1A;
+    color: white;
+    height: 140px;
+}
+
+footer .info {
+    float: right;
+    height: 100%;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 21px;
+}
+
+footer .logo svg {
+    width: 140px;
+    float: left;
+    height: 100%;
+}
+
+footer .logo svg * {
+    fill: white;
+}
+
+html {
+	margin: 0 !important
+}
+
+div#wpadminbar {
+    display: none;
+}
+
+div#modal {
+    width: 350px;
+    height: auto;
+    padding: 40px;
+    background: white;
+    position: fixed;
+    top: 40vh;
+    left: 50%;
+    margin-left: -150px;
+    max-width: 100vw;
+    border: 1px solid;
+    box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.move-up-down{
+  animation: move-up-down 2s ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-up-down{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  50% {
+    transform:  translate(0px,10px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+.section1 {
+    background: url(/wp-content/themes/notanpink/imagenes/Portadadeseccion-Asesoramiento.jpg) no-repeat center right / 70%;
+    min-height: 40vw;
+}
+
+.section1 .cont {
+    padding: 90px 90px 90px 130px;
+    background: #1A1A1A;
+    margin: 60px 0;
+    min-width: 580px;
+}
+
+.section1 .cont > * {
+    color: white;
+}
+
+.section1 .cont .tit {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.section1 .cont .text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section1 .movil-img {
+    background: url(/wp-content/themes/notanpink/imagenes/Portadadeseccion-Asesoramiento.jpg) no-repeat center center / cover;
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+
+.section2 .cont-steps {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-column-gap: 20px;
+}
+
+.section2 .cont-steps:before {
+    display: none;
+}
+
+.section2 .cont-steps .item {grid-column: span 3;display: flex;flex-direction: column;align-items: center;justify-content: flex-start;}
+
+.section2 .cont-steps .item .icon {
+    height: 80px;
+    margin-bottom: 47px;
+}
+
+.section2 .cont-steps .item .icon img {
+    height: 100%;
+}
+
+.section2 .cont-steps .separator {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    grid-column: span 2;
+}
+
+.section2 .cont-steps .separator i {
+    font-size: 40px;
+}
+
+
+.section2 .cont-steps .item .text {
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 300;
+}
+
+.tit-section {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 80px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.section2 {
+    padding: 105px 0;
+}
+
+.section3 .item.inversed > div {
+    float: right;
+    text-align: right;
+}
+
+.section3 .item {
+    float: left;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.section3 .item:last-child {
+    padding-bottom: 200px;
+}
+
+.section3 .item > .info {
+    padding: 8%;
+}
+
+.section3 .item > .info .tit {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.section3 .item > .info .text {
+    font-size: 18px;
+    line-height: 1.65;
+    padding-bottom: 50px;
+}
+
+.section3 .item > .img {
+	height: 100%;
+}
+
+.imagen-personal-page .section3 .item1 > .img {
+    background: url(/wp-content/themes/notanpink/imagenes/Ases-Asesoramientodeimagen.jpg) no-repeat center center / cover;
+}
+
+.imagen-personal-page .section3 .item2 > .img {
+    background: url(/wp-content/themes/notanpink/imagenes/Ases-Helptengounevento.jpg) no-repeat center center / cover;
+}
+
+.imagen-personal-page .section3 .item3 > .img {
+    background: url(/wp-content/themes/notanpink/imagenes/Ases-Tallerdeestilo.jpg) no-repeat center center / cover;
+}
