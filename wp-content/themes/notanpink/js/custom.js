@@ -61,6 +61,10 @@ $(document).ready(function(){
 	    fixHeight1();
 	});
 
+	$(".menu-icon, .close").click(function(){
+		$(".movil .menu-principal").toggleClass("movil-menu-visible");
+	});
+
 });
 
 function fixHeight1() {

@@ -72,27 +72,26 @@
 
 
 <section class="contacto" id="contacto-home">
-	<div class="titStyle2 col-xs-12">CONTACTANOS</div>
-	<div class="fade-in-normal col info col-xs-12 col-sm-6">
-		<div class="text">
-			Llena el formulario si querés más información, o si preferís, podés ponerte en contacto con nosotras a través del teléfono, whatsapp o enviándonos un e-mail a notanpink@gmail.com
-			<br><br>
-			<b>Asesora Imagen Personal Sara L. Carbel</b><br>(+549) 351 345 9071
-			<br><br>
-			<b>Arquitecta Carolina Dell’Agnolo</b><br>(+549) 351 641 1298
-		</div>
-		<div class="social">
-			<div class="social-icon"><a href="/blog.php"><i class="fa fa-instagram"></i></a></div>
-			<div class="social-icon"><a href="/blog.php"><i class="fa fa-facebook"></i></a></div>
-			<div class="social-icon"><a href="/blog.php"><i class="fa fa-twitter"></i></a></div>
-		</div>
+	<div class="titStyle2">CONTACTANOS</div>
+	<div class="text">
+		Llena el formulario si querés más información, o si preferís, podés ponerte en contacto con nosotras a través del teléfono, whatsapp o enviándonos un e-mail a notanpink@gmail.com
 	</div>
-	<div class="fade-in-normal col form col-xs-12 col-sm-6">
+	<div class="text text2">
+		<b>Asesora Imagen Personal Sara L. Carbel</b><br>(+549) 351 345 9071
+		<br><br>
+		<b>Arquitecta Carolina Dell’Agnolo</b><br>(+549) 351 641 1298
+	</div>
+	<div class="social">
+		<div class="social-icon"><a href="https://www.instagram.com/notanpink/"><i class="fa fa-instagram"></i></a></div>
+		<div class="social-icon"><a href="https://www.facebook.com/notanPink/"><i class="fa fa-facebook"></i></a></div>
+		<div class="social-icon"><a href="https://twitter.com/notanpink"><i class="fa fa-twitter"></i></a></div>
+	</div>
+	<div class="fade-in-normal form">
 		<form id="contact-form" action="javascript:void(0)">
 			<input class="item-form" type="text" name="nombre" placeholder="Nombre" required>
 			<input class="item-form" type="text" name="email" placeholder="Email" required>
 			<textarea class="item-form" name="mensaje" id="" placeholder="Mensaje"></textarea>
-			<input class="item-form button" type="submit" value="ENVIAR">
+			<input class="button" type="submit" value="ENVIAR">
 		</form>
 	</div>
 </section>

@@ -20,7 +20,7 @@ Template Name: Blog
 		if(have_posts()) : while (have_posts()) : the_post();
 		?>
 			<div class="item-blog">
-				<img class="blog-img col-xs-12 col-sm-4" src="<?php the_post_thumbnail_url(); ?>" alt="">
+				<div class="blog-img col-xs-12 col-sm-4" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center / cover" alt=""></div>
 				<div class="cont2 col-xs-12 col-sm-8">
 					<div class="tit"><?php the_title(); ?></div>
 					<div class="text"><?php the_excerpt(); ?></div>
